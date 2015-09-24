@@ -5,7 +5,7 @@ Module for Node. JS to control your VLC with a wrapper
 
 ## Installation
 ```javascript
-  npm install vlc-control-node --save
+  npm install Hekku2/vlc-control-node --save
 ```
 
 ## Usage
@@ -32,3 +32,4 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 * 0.0.1 Initial release
 * 0.0.2 Added functions empty,rate,aspectRatio,sort,random,loop,repeat,fullscreen,setVolume
+* 0.0.8 Forked and removed hard coded response port.
