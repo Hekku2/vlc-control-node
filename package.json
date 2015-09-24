@@ -1,6 +1,6 @@
 {
   "name": "vlc-control-node",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Module for Node. JS to control your VLC with a wrapper",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,10 @@
     "api"
   ],
   "author": "Fernando Derkoski <brilvio@gmail.com>",
+  "contributors": [{
+    "name": Hekku2
+	"email": hekku2@gmail.com
+  }],
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/gordosteam/vlc-control-node/issues"
