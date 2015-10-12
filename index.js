@@ -1,6 +1,5 @@
 /**
  * @author Fernando
- * @author Hekku2
  */
 
 var http = require("http");
@@ -9,7 +8,6 @@ var ipServer = '';
 var portServer = 8080;
 var user = '';
 var password = '';
-var net = require('net');
 
 var vlcControl = module.exports = function(config) {};
 
@@ -38,7 +36,6 @@ function request(options) {
         var output = '';
         res.setEncoding('utf8');
         res.on('data', function(chunk) {
-            // console.log(chunk);
             output += chunk;
         });
     });
